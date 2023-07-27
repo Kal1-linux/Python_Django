@@ -1,6 +1,5 @@
 from django.shortcuts import render,redirect
 from .models import Emp
-from .models import Blog
 
 # Create your views here.
 
@@ -24,5 +23,3 @@ def login(request):
 
 def home(request):
     return render(request,"home.html")
-
-
